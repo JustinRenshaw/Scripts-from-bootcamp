@@ -45,10 +45,10 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - 10.1.0.5
-  10.1.0.6
-  10.1.0.7
-  10.2.0.4
-  Local Host IP 
+- 10.1.0.6
+- 10.1.0.7
+- 10.2.0.4
+- Local Host IP 
 
 Machines within the network can only be accessed by the Ansible Control Node.
 -  Which machine did you allow to access your ELK VM? Ansible Control Node
@@ -82,12 +82,12 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 -  10.1.0.5
-   10.1.0.6
-   10.1.0.7
+-  10.1.0.6
+-  10.1.0.7
 
 We have installed the following Beats on these machines:
 -  Filebeat
-   Metricbeat
+-  Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
