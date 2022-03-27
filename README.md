@@ -77,7 +77,7 @@ The playbook implements the following tasks:
 - Enable the ELK container to run upon booting the VM
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![](Diagrams/Docker_Ps_Output.png)
+![](Diagrams/Docker_PS_Output.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
