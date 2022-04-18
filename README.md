@@ -69,6 +69,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 -  What is the main advantage of automating configuration with Ansible? Allows for easy addition/removal of machines by running ansible playbooks
+
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Configure the VM that will run the ELK container
@@ -105,9 +106,9 @@ SSH into the control node and follow the steps below:
 
 Answer the following questions to fill in the blanks:
 - Which file is the playbook? Elk_playbook.yml 
-  Where do you copy it? /etc/ansible
+- Where do you copy it? /etc/ansible
 - Which file do you update to make Ansible run the playbook on a specific machine? the config files
-  How do I specify which machine to install the ELK server on versus which to install Filebeat on? This is specified in the config files for ELK, metricbeat, filebeat by specifing the host group (ELK or webservers)
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on? This is specified in the config files for ELK, metricbeat, filebeat by specifing the host group (ELK or webservers)
 - Which URL do you navigate to in order to check that the ELK server is running? http://137.135.16.200:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
