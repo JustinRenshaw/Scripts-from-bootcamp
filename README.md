@@ -53,7 +53,7 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 
 Machines within the network can only be accessed by the Ansible Control Node.
 -  Which machine did you allow to access your ELK VM? Ansible Control Node
-   What was its IP address? 10.1.0.4
+-  What was its IP address? 10.1.0.4
 
 A summary of the access policies in place can be found in the table below.
 
